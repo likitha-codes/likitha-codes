@@ -1,11 +1,7 @@
-<!-- HEADER LOGO -->
-<!-- Custom Canva/Figma banner uploaded as banner.png -->
-
 <div align="center">
 
 <img src="./banner.png" alt="LIKITHA.codes Banner" width="100%" />
 
-<!-- Snake animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/likitha-codes/likitha-codes/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/likitha-codes/likitha-codes/output/github-contribution-grid-snake.svg">
@@ -30,8 +26,6 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-1a2d1a?style=for-the-badge&logo=mongodb&logoColor=4db33d)
 ![Express](https://img.shields.io/badge/Express-1a1a1a?style=for-the-badge&logo=express&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-2a1a1a?style=for-the-badge&logo=git&logoColor=F05032)
-![GenAI](https://img.shields.io/badge/GenAI%20%2F%20LLMs-2a1a3d?style=for-the-badge&logo=openai&logoColor=c084fc)
-![Figma](https://img.shields.io/badge/Figma-1a0d1a?style=for-the-badge&logo=figma&logoColor=F24E1E)
 
 </div>
 
@@ -39,13 +33,16 @@
 
 ## About
 
-Building scalable full-stack apps and AI-driven products. MERN developer focused on real-world problem solving and intelligent tools. Based in Hyderabad, India.
-
-- 🔭 Currently working on expanding **VitaeX** with smarter AI features
-- 🌱 Learning: advanced React patterns, LLM APIs, and system design
-- 👯 Open to collaborating on open source & AI-powered projects
-- 💬 Ask me about: MERN stack, building with GenAI, or getting started in web dev
-- 📍 Hyderabad, India &nbsp;|&nbsp; 🟢 Open to opportunities
+Passionate about building AI-powered experiences that solve real-world problems through clean design and smart functionality.
+Learning: LLM APIs, and system design
+- Artificial Intelligence
+- Backend Development
+- Automation
+- Human-centered Tech
+- Scalable Web Applications
+- Open to collaborating on open source & AI-powered projects
+- Ask me about: MERN stack, building with GenAI, or getting started in web dev
+- Hyderabad, India &nbsp;|&nbsp; 🟢 Open to opportunities
 
 ---
 
@@ -72,47 +69,6 @@ Building scalable full-stack apps and AI-driven products. MERN developer focused
 </div>
 
 ---
-
-<!--
-════════════════════════════════════════
-  SNAKE ANIMATION SETUP (GitHub Actions)
-════════════════════════════════════════
-
-1. In your likitha-codes repo, create:
-   .github/workflows/snake.yml
-
-2. Paste this content:
-
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: likitha-codes
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-3. Go to Actions tab → run workflow manually once
-4. Snake SVGs appear in the output branch
-5. README animation will work automatically
--->
 
 <div align="center">
   <sub>// building one commit at a time · likitha-codes</sub>
