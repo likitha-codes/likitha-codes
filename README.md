@@ -65,25 +65,12 @@ Building scalable full-stack apps and AI-driven products. MERN developer focused
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![Likitha's GitHub Stats](https://github-readme-stats.vercel.app/api?username=likitha-codes&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=8b949e)
-
-![Streak](https://streak-stats.demolab.com?user=likitha-codes&theme=github-dark-blue&hide_border=true&background=0d1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa)
-
-</div>
-
----
-
 ## Let's Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-a78bfa?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/t-likitha-sri-167009380/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:likithasrit@gmail.com)
 
 </div>
 
