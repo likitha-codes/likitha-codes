@@ -1,16 +1,11 @@
-<!-- HEADER LOGO — generate this image at https://readme-typing-svg.demolab.com or use a Canva/Figma banner -->
-<!-- For a "LIKITHA.codes" logo exactly like PARTH.builds, create a PNG in Canva with:
-     Font 1: Bebas Neue (for LIKITHA.)  |  Font 2: Cormorant Garamond Italic (for codes)
-     Dark background #0d1117, white + purple accent #a78bfa, export as PNG and upload to repo -->
+<!-- HEADER LOGO -->
+<!-- Custom Canva/Figma banner uploaded as banner.png -->
 
 <div align="center">
 
-<!-- Replace the src below with your actual banner image once created -->
-<!-- <img src="./banner.png" alt="LIKITHA.codes" width="100%"> -->
+<img src="./banner.png" alt="LIKITHA.codes Banner" width="100%" />
 
-# LIKITHA.*codes*
-
-<!-- Snake animation (set up via GitHub Actions - see instructions below) -->
+<!-- Snake animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/likitha-codes/likitha-codes/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/likitha-codes/likitha-codes/output/github-contribution-grid-snake.svg">
@@ -59,6 +54,7 @@ Building scalable full-stack apps and AI-driven products. MERN developer focused
 <div align="center">
 
 [![VitaeX](https://github-readme-stats.vercel.app/api/pin/?username=likitha-codes&repo=VitaeX&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa)](https://github.com/likitha-codes/VitaeX)
+
 [![Iris Study Buddy](https://github-readme-stats.vercel.app/api/pin/?username=likitha-codes&repo=Iris-Study-Buddy&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa)](https://github.com/likitha-codes/Iris-Study-Buddy)
 
 </div>
@@ -70,6 +66,7 @@ Building scalable full-stack apps and AI-driven products. MERN developer focused
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/t-likitha-sri-167009380/)
+
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:likithasrit@gmail.com)
 
 </div>
@@ -91,9 +88,11 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: Platane/snk@v3
         with:
@@ -101,27 +100,18 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-3. Go to Actions tab → run the workflow manually once
-4. The snake SVGs will appear in the `output` branch
-5. Your README snake animation will then work!
-
-════════════════════════════════════════
-  BANNER IMAGE (to get the LIKITHA.codes logo)
-════════════════════════════════════════
-
-Go to Canva → create a 1200x300px design:
-- Background: #0d1117
-- "LIKITHA." in Bebas Neue, white, ~120px
-- "codes" in Cormorant Garamond Italic, #a78bfa, ~110px
-- Export as PNG → upload to repo root as banner.png
-- Uncomment the <img> tag at the top of this README
+3. Go to Actions tab → run workflow manually once
+4. Snake SVGs appear in the output branch
+5. README animation will work automatically
 -->
 
 <div align="center">
