@@ -50,8 +50,6 @@ Learning: LLM APIs, and system design
 
 <div align="center">
 
-[![VitaeX](https://github-readme-stats.vercel.app/api/pin/?username=likitha-codes&repo=VitaeX&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa)](https://github.com/likitha-codes/VitaeX)
-
 [![Iris Study Buddy](https://github-readme-stats.vercel.app/api/pin/?username=likitha-codes&repo=Iris-Study-Buddy&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa)](https://github.com/likitha-codes/Iris-Study-Buddy)
 
 </div>
